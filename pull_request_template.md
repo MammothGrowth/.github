@@ -1,5 +1,11 @@
 # New Pull Request
 
+Check off the things that are applicable.  Some sections are mandetory for a review to continue.
+
+Note: for the checkbox to format correctly, make sure there aren't any spaces between [ ]
+- [x] completed task
+- [ ] incomplete task
+
 ## What has changed?
 - [ ] New Models
 - [ ] Updated Models
@@ -18,6 +24,7 @@
 - [ ] Massive re-write.  What have I done?
 
 ## Model Changes
+All of the following exist:
 - [ ] Schema exist for the new/updated model
 - [ ] An appropriate unique test exists in schema
 
@@ -26,9 +33,11 @@ If the above is not applicable specify why:
 - [ ] other:
 
 ## Development Process
-I have:
+I have done all:
 - [ ] `dbt run` locally
 - [ ] `dbt test` locally
+
+or:
 - [ ] It wasn't necessary because: 
 
 *Note:  Pull Requests will not be reviewed otherwise*
