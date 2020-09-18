@@ -1,21 +1,14 @@
 # New Pull Request
 
-Check off the things that are applicable.  Some sections are mandetory for a review to continue.
+* Check off the things that are applicable.  
+* Remove sections that are N/A
+* **Some sections are mandatory for a review to continue.**
 
-Note: for the checkbox to format correctly, make sure there aren't any spaces between [ ]
-- [x] completed task
-- [ ] incomplete task
 
-## What has changed?
+### What has changed?
 - [ ] New Models
 - [ ] Updated Models
 - [ ] Config Change
-
-### What issue is this PR meant to fix?
-*Describe the bug/enhancement/request from a business perspective.  Ie:  Explain the problem*
-
-### Provide any context to assist the reviewer and a speedy PR turnaround:
-- [ ] *NONE!  I do not want my PR to be reviewed in a timely fashion!*
 
 ### Complexity
 - [ ] Simple 1-liner, please rubber stamp
@@ -23,7 +16,13 @@ Note: for the checkbox to format correctly, make sure there aren't any spaces be
 - [ ] Business rules.  Need another set of eyes.  I have provided detailed context and documentations on how rules are meant to function
 - [ ] Massive re-write.  What have I done?
 
-## Model Changes
+### What issue is this PR meant to fix? 
+*Provide any context to assist the reviewer and a speedy PR turnaround:*
+*Describe the bug/enhancement/request from a business perspective.  Ie:  Explain the problem*
+
+- [ ] *NONE!  I do not want my PR to be reviewed!*
+
+### Model Schemas
 All of the following exist:
 - [ ] Schema exist for the new/updated model
 - [ ] An appropriate unique test exists in schema
@@ -32,7 +31,7 @@ If the above is not applicable specify why:
 - [ ] No model changes
 - [ ] other:
 
-## Development Process
+### Testing
 I have done all:
 - [ ] `dbt run` locally
 - [ ] `dbt test` locally
@@ -40,4 +39,8 @@ I have done all:
 or:
 - [ ] It wasn't necessary because: 
 
-*Note:  Pull Requests will not be reviewed otherwise*
+### Deployment Plan
+
+- [ ] There are no breaking changes.  I will merge as soon as approved.
+- [ ] There are breaking changes.  My deploy plan is:
+
